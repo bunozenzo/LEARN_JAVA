@@ -14,9 +14,9 @@ public class Lesson2 {
         float division = (float) numberOne / numberTwo;
 
         // System.out.printf("%5s %5s %5s %10.2f\\n", sum, dif, multi, division);
-//         %-10s: In chuỗi với chiều rộng tối đa là 10 ký tự, căn trái.
-//         %5d: In số nguyên với chiều rộng tối thiểu là 5 ký tự.
-//         %10.2f: In số thực với chiều rộng tối thiểu là 10 ký tự, với 2 chữ số thập phân.
+        // %-10s: In chuỗi với chiều rộng tối đa là 10 ký tự, căn trái.
+        // %5d: In số nguyên với chiều rộng tối thiểu là 5 ký tự.
+        // %10.2f: In số thực với chiều rộng tối thiểu là 10 ký tự, với 2 chữ số thập phân.
         String formattedOutput = String.format("%5s %5s %5s %10.2f", sum, dif, multi, division);
         System.out.println(formattedOutput);
     }
