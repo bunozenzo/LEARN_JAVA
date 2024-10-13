@@ -19,5 +19,7 @@ public class Lesson2 {
         // %10.2f: In số thực với chiều rộng tối thiểu là 10 ký tự, với 2 chữ số thập phân.
         String formattedOutput = String.format("%5s %5s %5s %10.2f", sum, dif, multi, division);
         System.out.println(formattedOutput);
+        // Đóng Scanner
+        s.close();
     }
 }

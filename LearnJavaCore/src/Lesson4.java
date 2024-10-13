@@ -7,6 +7,8 @@ public class Lesson4 {
         System.out.println("Nhap vao so :");
         int n = s.nextInt();
         System.out.println("So ban vua nhap la so " + CheckNumber(n));
+        // Đóng Scanner
+        s.close();
     }
     public static String CheckNumber(int number) {
         return number == 0 ? "Khong" : (number > 0 ? "Duong" : "Am");

@@ -11,6 +11,8 @@ public class Lesson5 {
         } else {
             System.out.println(number + " Không là số nguyên tố");
         }
+        // Đóng Scanner
+        s.close();
     }
 
     public static boolean IsPrime(int number) {

@@ -7,6 +7,8 @@ public class Lesson3 {
         System.out.println("Enter number:");
         int number = s.nextInt();
         System.out.println("Số này là số " + IsEven(number));
+        // Đóng Scanner
+        s.close();
     }
 
     public static String IsEven(int number) {

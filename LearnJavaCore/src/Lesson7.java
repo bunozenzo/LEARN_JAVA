@@ -7,6 +7,8 @@ public class Lesson7 {
         System.out.println("Nhap thong tin");
         int n = s.nextInt();
         System.out.println("Gia thua: " + factorial(n));
+        // Đóng Scanner
+        s.close();
     }
 
     public static long factorial(int n) {
